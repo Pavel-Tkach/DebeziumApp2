@@ -1,0 +1,14 @@
+server:
+  port: 11112
+
+spring:
+  application:
+    name: DebeziumApp2
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5557/middle_db
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
